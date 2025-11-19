@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tải video miễn phí từ TikTok, Twitter/X, Facebook, Instagram, YouTube. Công cụ tải video nhanh chóng, chất lượng cao, không cần đăng nhập.">
-    <meta name="keywords" content="tải video, download video, tiktok downloader, twitter downloader, facebook downloader, instagram downloader, youtube downloader">
-    <title>Video Downloader - Tải Video Miễn Phí từ TikTok, Twitter, Facebook, Instagram</title>
+    <meta name="description" content="Tải video Twitter/X miễn phí, nhanh chóng và dễ sử dụng. Hỗ trợ tải video Twitter/X ở chất lượng cao nhất, không cần đăng nhập.">
+    <meta name="keywords" content="tải video twitter, twitter downloader, x.com downloader, download video twitter, tải video x.com">
+    <title>Twitter/X Video Downloader - Tải Video Twitter/X Miễn Phí</title>
     
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Video Downloader",
-      "url": "https://dotplays.com/",
-      "description": "Công cụ tải video miễn phí từ các nền tảng mạng xã hội phổ biến",
+      "name": "Twitter/X Video Downloader",
+      "url": "https://huuhuybn.github.io/twitterdown/",
+      "description": "Công cụ tải video Twitter/X miễn phí, nhanh chóng và dễ sử dụng",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://dotplays.com/?s={search_term_string}",
+        "target": "https://huuhuybn.github.io/twitterdown/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -34,7 +34,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1DA1F2 0%, #1a8cd8 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -49,7 +49,7 @@
         }
         
         header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1DA1F2 0%, #1a8cd8 100%);
             color: white;
             padding: 60px 40px;
             text-align: center;
@@ -66,58 +66,8 @@
             opacity: 0.95;
         }
         
-        .tools-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+        .main-content {
             padding: 40px;
-        }
-        
-        .tool-card {
-            background: #fff;
-            border: 2px solid #e0e0e0;
-            border-radius: 16px;
-            padding: 30px;
-            text-align: center;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-        
-        .tool-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-            border-color: #667eea;
-        }
-        
-        .tool-icon {
-            font-size: 64px;
-            margin-bottom: 20px;
-        }
-        
-        .tool-card h2 {
-            font-size: 24px;
-            margin-bottom: 15px;
-            color: #333;
-        }
-        
-        .tool-card p {
-            color: #666;
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-        
-        .tool-badge {
-            display: inline-block;
-            background: #10b981;
-            color: white;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
         }
         
         .features {
@@ -162,6 +112,25 @@
             font-size: 16px;
         }
         
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #1DA1F2 0%, #1a8cd8 100%);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(29, 161, 242, 0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(29, 161, 242, 0.4);
+        }
+        
         footer {
             background: #2d3748;
             color: white;
@@ -174,7 +143,7 @@
         }
         
         footer a {
-            color: #667eea;
+            color: #1DA1F2;
             text-decoration: none;
         }
         
@@ -187,8 +156,7 @@
                 font-size: 16px;
             }
             
-            .tools-grid {
-                grid-template-columns: 1fr;
+            .main-content {
                 padding: 20px;
             }
             
@@ -201,45 +169,16 @@
 <body>
     <div class="container">
         <header>
-            <h1>🎬 Video Downloader</h1>
-            <p>Tải video miễn phí từ các nền tảng mạng xã hội phổ biến nhất</p>
+            <h1>🐦 Twitter/X Video Downloader</h1>
+            <p>Tải video Twitter/X miễn phí, nhanh chóng và dễ sử dụng</p>
         </header>
         
-        <div class="tools-grid">
-            <a href="tiktok-video-downloader.html" class="tool-card">
-                <div class="tool-icon">🎵</div>
-                <h2>TikTok Video Downloader</h2>
-                <p>Tải video TikTok miễn phí, chất lượng cao. Hỗ trợ tất cả định dạng video TikTok.</p>
-                <span class="tool-badge">Miễn phí</span>
-            </a>
-            
-            <a href="twitter-x-video-downloader.html" class="tool-card">
-                <div class="tool-icon">🐦</div>
-                <h2>Twitter/X Video Downloader</h2>
-                <p>Tải video từ Twitter và X.com. Hỗ trợ cả twitter.com và x.com.</p>
-                <span class="tool-badge">Miễn phí</span>
-            </a>
-            
-            <a href="facebook-video-downloader.html" class="tool-card">
-                <div class="tool-icon">📘</div>
-                <h2>Facebook Video Downloader</h2>
-                <p>Tải video Facebook công khai. Hỗ trợ video từ trang cá nhân và fanpage.</p>
-                <span class="tool-badge">Miễn phí</span>
-            </a>
-            
-            <a href="instagram-video-downloader.html" class="tool-card">
-                <div class="tool-icon">📷</div>
-                <h2>Instagram Video Downloader</h2>
-                <p>Tải video và Reels từ Instagram. Hỗ trợ cả video và ảnh.</p>
-                <span class="tool-badge">Miễn phí</span>
-            </a>
-            
-            <a href="youtube-video-downloader.html" class="tool-card">
-                <div class="tool-icon">▶️</div>
-                <h2>YouTube Video Downloader</h2>
-                <p>Tải video YouTube ở nhiều chất lượng. Hỗ trợ MP4, MP3 và nhiều định dạng khác.</p>
-                <span class="tool-badge">Miễn phí</span>
-            </a>
+        <div class="main-content" style="text-align: center;">
+            <h2 style="font-size: 32px; margin-bottom: 20px; color: #333;">Công cụ tải video Twitter/X tốt nhất</h2>
+            <p style="font-size: 18px; color: #666; margin-bottom: 30px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                Tải video từ Twitter và X.com một cách dễ dàng. Hỗ trợ cả twitter.com và x.com, không cần đăng nhập, hoàn toàn miễn phí.
+            </p>
+            <a href="twitter-x-video-downloader.html" class="cta-button">🚀 Bắt đầu tải video ngay</a>
         </div>
         
         <div class="features">
@@ -279,11 +218,10 @@
         </div>
         
         <footer>
-            <p><strong>Video Downloader</strong> - Công cụ tải video miễn phí</p>
+            <p><strong>Twitter/X Video Downloader</strong> - Công cụ tải video miễn phí</p>
             <p>© 2025. Tất cả quyền được bảo lưu.</p>
             <p>Lưu ý: Chỉ tải video công khai và tôn trọng bản quyền</p>
         </footer>
     </div>
 </body>
 </html>
-
