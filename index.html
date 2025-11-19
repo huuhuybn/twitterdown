@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tải video miễn phí từ TikTok, Twitter/X, Facebook, Instagram, YouTube. Công cụ tải video nhanh chóng, chất lượng cao, không cần đăng nhập.">
+    <meta name="keywords" content="tải video, download video, tiktok downloader, twitter downloader, facebook downloader, instagram downloader, youtube downloader">
+    <title>Video Downloader - Tải Video Miễn Phí từ TikTok, Twitter, Facebook, Instagram</title>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Video Downloader",
+      "url": "https://dotplays.com/",
+      "description": "Công cụ tải video miễn phí từ các nền tảng mạng xã hội phổ biến",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://dotplays.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-size: 20px;
+            opacity: 0.95;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px;
+        }
+        
+        .tool-card {
+            background: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+        
+        .tool-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        
+        .tool-card h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .tool-card p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .tool-badge {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .features {
+            background: #f8f9fa;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .features h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #333;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-item {
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .feature-item h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .feature-item p {
+            color: #666;
+            font-size: 16px;
+        }
+        
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        footer p {
+            margin-bottom: 10px;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 32px;
+            }
+            
+            header p {
+                font-size: 16px;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+            
+            .features {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 Video Downloader</h1>
+            <p>Tải video miễn phí từ các nền tảng mạng xã hội phổ biến nhất</p>
+        </header>
+        
+        <div class="tools-grid">
+            <a href="tiktok-video-downloader.html" class="tool-card">
+                <div class="tool-icon">🎵</div>
+                <h2>TikTok Video Downloader</h2>
+                <p>Tải video TikTok miễn phí, chất lượng cao. Hỗ trợ tất cả định dạng video TikTok.</p>
+                <span class="tool-badge">Miễn phí</span>
+            </a>
+            
+            <a href="twitter-x-video-downloader.html" class="tool-card">
+                <div class="tool-icon">🐦</div>
+                <h2>Twitter/X Video Downloader</h2>
+                <p>Tải video từ Twitter và X.com. Hỗ trợ cả twitter.com và x.com.</p>
+                <span class="tool-badge">Miễn phí</span>
+            </a>
+            
+            <a href="facebook-video-downloader.html" class="tool-card">
+                <div class="tool-icon">📘</div>
+                <h2>Facebook Video Downloader</h2>
+                <p>Tải video Facebook công khai. Hỗ trợ video từ trang cá nhân và fanpage.</p>
+                <span class="tool-badge">Miễn phí</span>
+            </a>
+            
+            <a href="instagram-video-downloader.html" class="tool-card">
+                <div class="tool-icon">📷</div>
+                <h2>Instagram Video Downloader</h2>
+                <p>Tải video và Reels từ Instagram. Hỗ trợ cả video và ảnh.</p>
+                <span class="tool-badge">Miễn phí</span>
+            </a>
+            
+            <a href="youtube-video-downloader.html" class="tool-card">
+                <div class="tool-icon">▶️</div>
+                <h2>YouTube Video Downloader</h2>
+                <p>Tải video YouTube ở nhiều chất lượng. Hỗ trợ MP4, MP3 và nhiều định dạng khác.</p>
+                <span class="tool-badge">Miễn phí</span>
+            </a>
+        </div>
+        
+        <div class="features">
+            <h2>✨ Tại sao chọn chúng tôi?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Tải nhanh chóng</h3>
+                    <p>Xử lý video trong vài giây, không cần chờ đợi lâu</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Chất lượng cao</h3>
+                    <p>Tải video ở chất lượng tốt nhất có sẵn từ nguồn</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔒</div>
+                    <h3>An toàn & Bảo mật</h3>
+                    <p>Không lưu trữ video, không yêu cầu đăng nhập</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mọi thiết bị</h3>
+                    <p>Hoạt động trên máy tính, điện thoại, tablet</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💯</div>
+                    <h3>Hoàn toàn miễn phí</h3>
+                    <p>Không có phí ẩn, không giới hạn số lần tải</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Dễ sử dụng</h3>
+                    <p>Giao diện đơn giản, chỉ cần 3 bước</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p><strong>Video Downloader</strong> - Công cụ tải video miễn phí</p>
+            <p>© 2025. Tất cả quyền được bảo lưu.</p>
+            <p>Lưu ý: Chỉ tải video công khai và tôn trọng bản quyền</p>
+        </footer>
+    </div>
+</body>
+</html>
+
